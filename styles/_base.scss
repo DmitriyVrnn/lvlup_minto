@@ -1,0 +1,44 @@
+@import '_vars';
+
+h1{
+    color: $main-color;
+    font-size: 50px;
+    font-family: $main-font;  
+}
+
+h2{
+    font-size: 26px;
+    font-family: $label-font;
+    font-weight: bold;
+    color: #505051;
+    margin-bottom: -10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+blockquote, p{
+    font-family: $content-font;
+}
+
+blockquote{
+    font-style: italic;
+    font-size: 21px;
+    line-height: 1.5;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.arrow {
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}

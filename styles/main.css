@@ -1,0 +1,369 @@
+h1 {
+  color: #9374b5;
+  font-size: 50px;
+  font-family: "Samo Sans Pro Regular";
+}
+
+h2 {
+  font-size: 26px;
+  font-family: "SofiaProLight";
+  font-weight: bold;
+  color: #505051;
+  margin-bottom: -10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+blockquote, p {
+  font-family: "Segoe UI", sans-serif;
+}
+
+blockquote {
+  font-style: italic;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+.container, .nav-section .top-nav, .banner-section, .content-section {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow, .banner-section .banner-block .arrow-prev, .banner-section .banner-block .arrow-next {
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Samo Sans Pro Regular';
+  src: url("../fonts/SamoSansPro/SamoSansPro.eot");
+  src: url("../fonts/SamoSansPro/SamoSansPro.eot?#iefix") format("embedded-opentype"), url("../fonts/SamoSansPro/SamoSansPro.woff") format("woff"), url("../fonts/SamoSansPro/SamoSansPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'StRydeRegular';
+  src: url("../fonts/StRyde_Regular/StRyde-Regular.otf");
+}
+
+@font-face {
+  font-family: 'SofiaProLight';
+  src: url("../fonts/SofiaProLight/SofiaProLight.eot");
+  src: url("../fonts/SofiaProLight/SofiaProLight.ttf");
+}
+
+.logo-text {
+  color: #a292b3;
+  font-family: "Samo Sans Pro Regular";
+  font-size: 29px;
+}
+
+.nav-item {
+  font-family: "Samo Sans Pro Regular";
+  font-size: 18px;
+}
+
+.nav-item .fa {
+  color: #a292b3;
+  font-size: 25px;
+}
+
+.banner-block {
+  background-image: url(../img/banner.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.banner-block .arrow-prev {
+  background-image: url(../img/arrow_left.png);
+}
+
+.banner-block .arrow-next {
+  background-image: url(../img/arrow_right.png);
+}
+
+.banner-block .label {
+  font-family: "StRydeRegular", serif;
+  text-shadow: -4px 4px #000, -4px 4px rgba(200, 120, 22, 0.2);
+  color: #fbfbfb;
+  font-size: 111px;
+}
+
+.banner-block .label-2 {
+  color: #fbfbfb;
+  font-family: "SofiaProLight", serif;
+  font-size: 27px;
+}
+
+.quote {
+  border-top: 2px solid #bfbfbf;
+  border-bottom: 2px solid #bfbfbf;
+}
+
+.color-span {
+  color: #82699d;
+  font-weight: bold;
+}
+
+.photo {
+  cursor: pointer;
+}
+
+.content-block {
+  color: #838383;
+}
+
+.read-more {
+  cursor: pointer;
+  font-family: "SofiaProLight";
+  font-style: italic;
+  font-size: 13px;
+  color: #838383;
+}
+
+.fa-arrow-right {
+  color: #838383;
+  cursor: pointer;
+}
+
+.label-3 {
+  font-size: 19px;
+}
+
+.label-3:before,
+.label-3:after {
+  background-color: #e2e2e2;
+}
+
+.clients {
+  border: 2px solid #dedede;
+  background: #f5f5f5;
+}
+
+.clients .img-client {
+  border-right: 2px solid #dedede;
+}
+
+.footer-block {
+  background: #e8e8e8;
+  border-bottom: 10px solid #9374b5;
+}
+
+.top-section {
+  display: flex;
+  justify-content: center;
+  border-bottom: 5px solid #a292b3;
+}
+
+.top-section .logo {
+  padding: 12px 0 20px 100px;
+  width: 360px;
+}
+
+.top-section .text {
+  margin: 150px 35px;
+}
+
+.nav-section {
+  margin-top: 20px;
+}
+
+.nav-section .top-nav .content-logo {
+  display: flex;
+}
+
+.nav-section .top-nav .content-logo:first-child {
+  margin-right: 11em;
+}
+
+.nav-section .top-nav .content-logo .min-logo {
+  padding-left: 20em;
+}
+
+.nav-section .top-nav .content-logo .logo-text {
+  text-transform: uppercase;
+  padding: 15px 0 0 10px;
+}
+
+.nav-section .top-nav .nav-item {
+  padding-right: 60px;
+  padding-top: 21px;
+}
+
+.nav-section .top-nav .nav-item:last-child {
+  margin-right: 11em;
+}
+
+.nav-section .top-nav .nav-item .fa {
+  margin-right: 9px;
+}
+
+.banner-section {
+  margin-top: 31px;
+}
+
+.banner-section .banner-block {
+  height: 450px;
+  width: 925px;
+  margin-left: 65px;
+}
+
+.banner-section .banner-block .arrow-prev {
+  top: 184px;
+  height: 64px;
+}
+
+.banner-section .banner-block .arrow-next {
+  top: 120px;
+  height: 64px;
+  right: -890px;
+}
+
+.banner-section .banner-block .label {
+  text-align: center;
+}
+
+.banner-section .banner-block .label-2 {
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.quote-section {
+  margin-top: 30px;
+}
+
+.quote-section .quote {
+  padding-left: 20px;
+  text-indent: 10px;
+  padding: 10px 0 10px 0;
+}
+
+.quote-section .quote-block {
+  text-align: center;
+  margin: 0 426px 0 493px;
+}
+
+.content-section .photo-block {
+  position: relative;
+  text-align: center;
+}
+
+.content-section .photo-block .img-photo {
+  width: 78%;
+}
+
+.content-section .photo-block .photo {
+  position: absolute;
+  text-align: center;
+  left: 39px;
+  top: 14px;
+}
+
+.content-section .photo-block .shadow {
+  position: relative;
+  left: 19px;
+}
+
+.content-section .content-block {
+  position: relative;
+  width: 33%;
+  line-height: 1.5;
+  margin-left: 20px;
+}
+
+.content-section .read-more {
+  position: relative;
+  margin-left: 554px;
+  top: -20px;
+}
+
+.content-section .fa-arrow-right {
+  margin-top: 237px;
+}
+
+.text-delimeter-block {
+  margin-left: 510px;
+  width: 50%;
+  justify-content: center;
+}
+
+.text-delimeter-block .label-3 {
+  overflow: hidden;
+  text-align: left;
+}
+
+.text-delimeter-block .label-3 span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.text-delimeter-block .label-3:before,
+.text-delimeter-block .label-3:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 4px;
+  position: relative;
+}
+
+.text-delimeter-block .label-3:before {
+  margin-left: -100%;
+  left: -14px;
+}
+
+.text-delimeter-block .label-3:after {
+  margin-right: -100%;
+  right: -14px;
+}
+
+.clients-block {
+  width: 49.5%;
+  margin-left: 515px;
+  padding-top: 30px;
+}
+
+.clients-block .clients {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.clients-block .clients .img-client {
+  padding-right: 32px;
+  width: 18%;
+  height: 72px;
+  margin-right: -37px;
+}
+
+.clients-block .clients .img-client:last-child {
+  border-right: none;
+}
+
+.footer-block {
+  margin-top: 59px;
+  height: 72px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-block .copyright {
+  margin-top: 28px;
+  padding-left: 13em;
+}
+
+.footer-block .icons {
+  margin-top: 28px;
+  margin-right: 9em;
+  letter-spacing: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
