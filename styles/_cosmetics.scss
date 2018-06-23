@@ -1,33 +1,26 @@
 @import '_vars.scss';
 
-.logo-text{
-    color: $second-color;
-    font-family: $main-font;
-    font-size: 29px;
+
+.min-logo{
+    span{
+        color: $second-color;
+        font-family: $main-font;
+        font-size: 29px;
+    }
 }
 
-.nav-item{
+.top-nav{
+    a{
     font-family: $main-font;
     font-size: 18px;
+    }
     .fa{
         color: $second-color;
         font-size: 25px;
     }
 }
 
-.banner-block{
-    background-image: url(../img/banner.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    
-    .arrow-prev {
-        background-image: url(../img/arrow_left.png);
-    }
-
-    .arrow-next {
-        background-image: url(../img/arrow_right.png);
-    }
-    
+.banner-section{
     .label{
         font-family: $second-font, serif;
         text-shadow: -4px 4px #000, -4px 4px rgba(200, 120, 22, .2);
@@ -67,12 +60,6 @@
     font-size: 13px;
     color: $content-color;
 }
-
-.fa-arrow-right{
-    color: $content-color;
-    cursor: pointer;
-}
-
 .label-3 {
     font-size: 19px;
 }
@@ -82,16 +69,13 @@
         background-color: #e2e2e2;
     }
 
-.clients {
-    border: 2px solid #dedede; 
-    background: #f5f5f5;
-
-    .img-client{
-        border-right: 2px solid #dedede;
+.clients-block {
+    img, a{
+     background: #f5f5f5;
     }
 }
 
-.footer-block{
+footer{
     background: #e8e8e8;
-    border-bottom: 10px solid $main-color;
+    border-bottom: 5px solid $main-color;
 }

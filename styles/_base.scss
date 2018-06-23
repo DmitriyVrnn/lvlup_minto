@@ -1,9 +1,8 @@
 @import '_vars';
 
-div, section,
-header, footer{
+* {
     box-sizing: border-box; 
-} 
+}
 
 h1{
     color: $main-color;
@@ -43,13 +42,6 @@ blockquote{
     position: relative;
 }
 
-body{
-    overflow-x: auto; 
-    width:100%;
-  max-width: 1920px; 
-  min-width: 1920px;    
-  margin: 0 auto;
+.container{
+    width: 1000px;
 }
-
-
-
